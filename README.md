@@ -26,11 +26,11 @@ pip install dist/<filename>.whl
         for *nix :   ~/.pypirc 
     And add the following content to it. Replace javatechy with your username.
 
-[distutils] 
-index-servers=pypi
-[pypi] 
-repository = https://upload.pypi.org/legacy/ 
-username =javatechy
+[distutils]<br/>
+index-servers=pypi<br/>
+[pypi] <br/>
+repository = https://upload.pypi.org/legacy/ <br/>
+username =javatechy<br/>
 
 ### Step 2
 use python -m twine upload dist/*
